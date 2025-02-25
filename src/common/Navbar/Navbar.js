@@ -47,6 +47,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link to='/navigation' onClick={closeMobileMenu}>
+                Navigation
+              </Link>
+            </li>
+            <li>
               <Link to='/contact' onClick={closeMobileMenu}>
                 Contact Us
               </Link>

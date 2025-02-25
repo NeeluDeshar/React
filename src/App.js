@@ -10,6 +10,7 @@ import SinglePages from "./SinglePage/SinglePages"
 import Blog from "./components/Blog/Blog"
 import BlogSingle from "./components/Blog/blog-single-page/BlogSingle"
 import Rooms from "./components/Rooms/Rooms"
+import Navigation from "./components/navigation/navigation"
 import Contact from "./components/Contact/Contact"
 import Login from "./components/login/Login"
 import Register from "./components/login/Register"
@@ -29,6 +30,7 @@ function App () {
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogsingle/:id" element={<BlogSingle />} />
           <Route path="/room" element={<Rooms />} />
+          <Route path="/navigation" element={<Navigation />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/sign-in" element={<Login />} />
           <Route path="/register" element={<Register />} />
